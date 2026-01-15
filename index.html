@@ -41,20 +41,22 @@
             <div>Brazesh</div>
             <div class="line">Full Stack Developer</div>
           </div>
+          <label for="hamburger"><i class="fa-solid fa-bars"></i></label>
+          <input type="checkbox" id="hamburger" />
           <div class="menu">
             <ul class="flex navigation">
-              <li><a href="">Home</a></li>
-              <li><a href="">Skills</a></li>
-              <li><a href="">Project</a></li>
-              <li><a href="">About me</a></li>
-              <li><a href="">Contact</a></li>
+              <li><a href="#hero">Home</a></li>
+              <li><a href="#skills">Skills</a></li>
+              <li><a href="#projects">Project</a></li>
+              <li><a href="#about">About me</a></li>
+              <li><a href="#contact">Contact</a></li>
             </ul>
           </div>
         </div>
       </nav>
 
       <!-- Hero -->
-      <section class="hero container">
+      <section class="hero container" id="hero">
         <div class="detail grid">
           <div class="left flex">
             <div>Hi, I'm <strong>Brazesh Guragain</strong></div>
@@ -69,8 +71,7 @@
             </div>
           </div>
           <div class="right flex">
-            <img src="assets/mypic.png" alt="load" />
-            <source />
+            <img src="assets/pp.png" alt="load" />
           </div>
         </div>
       </section>
@@ -104,7 +105,7 @@
         </div>
       </div>
       <!-- Skills -->
-      <section class="skills container flex;">
+      <section class="skills container" id="skills">
         <div class="title">Skills</div>
         <br />
 
@@ -132,7 +133,7 @@
         </div>
       </section>
       <!-- Projects -->
-      <section class="projects container">
+      <section class="projects container" id="projects">
         <div class="title">Projects</div>
         <div class="project-container grid">
           <div class="project-card">
@@ -206,9 +207,80 @@
       </section>
 
       <!-- About me  -->
+      <section class="about" id="about">
+        <div class="title">About me</div>
+        <div class="container flex about-content">
+          <div class="about-left">
+            <img src="./assets/pp.png" alt="" />
+          </div>
+
+          <div class="about-right">
+            <h2>Brazesh Guragain</h2>
+            <p>
+              &Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Blanditiis laborum voluptatum neque aut iusto beatae, laudantium
+              ratione ipsum veniam alias illo, sit provident temporibus pariatur
+              officiis. Placeat nobis a dolor.
+            </p>
+            <p>
+              &Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Blanditiis laborum voluptatum neque aut iusto beatae, laudantium
+              ratione ipsum veniam alias illo, sit provident temporibus pariatur
+              officiis. Placeat nobis a dolor.
+            </p>
+            <h3>Hobart, Tasmania</h3>
+            <div class="int">
+              <h3>Interest</h3>
+              <span>Coding Soccer Swimming</span>
+            </div>
+          </div>
+        </div>
+      </section>
       <!-- contact me  -->
+      <section class="contact-me container" id="contact">
+        <div class="title">Contact</div>
+        <div class="contact flex-center container">
+          <a href=""><i class="fa-brands fa-linkedin"></i></a>
+          <a href=""><i class="fa-brands fa-square-github"></i></a>
+          <a href=""><i class="fa-brands fa-youtube"></i></a>
+          <a href=""><i class="fa-solid fa-mobile"></i></a>
+        </div>
+        <span class="flex-center">OR</span>
+
+        <div class="flex-center">
+          <a href="" class="emailcontact flex">
+            <span>youremail@email.com</span>
+            <div class="email-logo flex-center">
+              <i class="fa-solid fa-paper-plane"></i>
+            </div>
+          </a>
+        </div>
+      </section>
       <!-- footer area -->
-      <footer>&copy;hamro wbsite</footer>
+      <footer>
+        <div class="footer grid container">
+          <div class="links flex">
+            <h2>Links</h2>
+            <a href="#hero">Home</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="contact">Contact</a>
+          </div>
+          <div class="social flex">
+            <h2>Social Links</h2>
+            <a href="">Linkedlin</a>
+            <a href="">Github</a>
+            <a href="">Facebook</a>
+            <a href="">Youtube</a>
+          </div>
+        </div>
+        &copy: All Copyright Reserved
+      </footer>
+      <a href="#hero">
+        <div class="goup flex-center">
+          <i class="fa-solid fa-angle-up"></i>
+        </div>
+      </a>
     </div>
   </body>
 </html>
