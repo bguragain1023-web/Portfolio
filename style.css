@@ -295,6 +295,26 @@ strong {
   word-spacing: 2rem;
 }
 
+.swap {
+  cursor: pointer;
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  cursor: pointer;
+  margin-right: 20px;
+}
+.swap .icon {
+  display: none;
+}
+.swap:hover .text {
+  display: none;
+}
+.swap:hover .icon {
+  display: inline-block;
+  transform: scale(1.3);
+  transition: all 0.4s;
+}
+
 /* <!-- contact me  --> */
 .contact-me {
   margin-top: 7rem;
